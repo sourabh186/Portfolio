@@ -733,109 +733,6 @@ skills{
     color: #000000;
 }
 
-/* -------------testimonials---------------- */
-
-.testimonials{
-    padding: 100px 0px;
-    border-right-color: #f5f8fd;
-}
-
-.testimonials .section-title h1:before{
-    left: 30%;
-}
-
-.testimonials .testimonials-content{
-
-}
-
-.testimonials .testimonials-content .testi-slider .slide{
-    background-color: #fff;
-    margin-bottom: 15px;
-    border: 1px solid #eeeeee;
-    padding: 15px;
-    border-radius: 4px;
-}
-
-.testimonials .testimonials-content .testi-slider .slide p{
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #838383;
-    margin: 0;
-}
-
-.testimonials .testimonials-content .testi-slider .slide h6{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    margin: 10px 0 10px;
-}
-
-.testimonials .testimonials-content{
-    position: relative;
-    overflow: hidden;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-.testimonials .testimonials-content .testi-slider .slide{
-    background-color: #fff;
-    margin-bottom: 15px;
-    border: 1px solid #eeeeee;
-    padding: 40px 20px;
-    border-radius: 4px;
-    display: flex;
-    flex-wrap: nowrap;
-    float: left;
-    width: 100%;
-}
-
-.testimonials .testimonials-content .testi-slider .slide .img{
-    flex: 0 0 128px;
-    max-width: 128px;
-}
-
-.testimonials .testimonials-content .testi-slider .slide p{
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #838383;
-    margin: 0;
-}
-
-.testimonials .testimonials-content .testi-slider{
-    float: left;
-    transition: margin 1s ease;
-}
-
-.testimonials .testimonials-content .testi-slider .slide h6{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    margin: 10px 0 5px;
-}
-
-.testimonials .testimonials-content .slide-controls{
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-
-.testimonials .testimonials-content .slide-controls div{
-    height: 15px;
-    width: 15px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 1px splid #febd01;
-    display: inline-block;
-    margin: 10px 6px;
-    cursor: pointer;
-}
-
-.testimonials .testimonials-content .slide-controls div.active{
-    background-color: #febd01;
-}
-
 /* -------------------------blogs-------------------- */
 
 .blogs{
@@ -1228,9 +1125,4 @@ footer .social a:hover{
     .about-me .about-content .text .info .list p{
         flex: 0 0 100%;
     }
-
-    /* .testimonials .testimonials-content .testi-slider .slide .img{
-        flex: 0 0 100%;
-        max-width: 100%;
-    } */
 }
