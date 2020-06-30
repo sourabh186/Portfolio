@@ -1,3 +1,6 @@
+
+// ---------------------------------------------Gallery Open---------------------------------------
+
 const filterButtons = document.querySelector("#filter-btns").children;
 const items = document.querySelector(".portfolio-gallery").children;
 
@@ -21,6 +24,7 @@ for(let i = 0; i<filterButtons.length; i++){
     })
 }
 
+// -------------------------------------------------Gallery Close-------------------------------------------------
 
 const closeLightbox = document.querySelector(".close-lightbox");
 const lightbox = document.querySelector(".lightbox");
@@ -49,6 +53,8 @@ galleryItem.forEach(function(element){
     })
 })
 
+// -----------------------------------------------Header Fixed on scroll-------------------------------------------------
+
 window.onscroll=function(){
     const docScrollTop=document.documentElement.scrollTop;
 
@@ -61,6 +67,8 @@ window.onscroll=function(){
         }
     }
 }
+
+// -------------------------------------------------For Mobile View-------------------------------------------------------
 
 const navbar = document.querySelector(".navbar");
 a = navbar.querySelectorAll("a");
@@ -78,7 +86,15 @@ a.forEach(function(element){
 const hamBurger = document.querySelector(".ham-burger");
 
 hamBurger.addEventListener("click", function(){
-    hamBurger.addEventListener("click", function(){
         document.querySelector(".navbar").classList.toggle("show");
-    })
 })
+
+// ---------------------------------------------Animations----------------------------------------
+
+$(document).ready(function () {
+    AOS.init({
+        duration: 1800
+    });
+
+
+});
