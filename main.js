@@ -93,7 +93,8 @@ hamBurger.addEventListener("click", function(){
 
 $(document).ready(function () {
     AOS.init({
-        duration: 1800
+        duration: 1800,
+		once: true
     });
 
 
